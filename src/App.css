@@ -1,0 +1,9 @@
+@import "tailwindcss";
+/* @import 'pretty-checkbox/src/pretty-checkbox.scss'; */
+@custom-variant dark (&:where(.dark, .dark *));
+
+.background-dots {
+    background: radial-gradient(circle, rgb(107, 106, 106) 1%, transparent 10%);
+    /* background-size: 30px 50px; */
+  }
+  
